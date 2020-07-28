@@ -1,0 +1,2 @@
+# rhscsa
+linuxadministrator
