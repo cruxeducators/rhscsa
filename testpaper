@@ -1,0 +1,71 @@
+Test your Skills
+
+Using Essential Tools
+
+    Locate the right man page for information on how to set a password
+    Use the man page form useradd and create a user Natasha
+    Set the password for use Natasha to ‘redhat’
+    Use cd /etc to make /etc your active directory 
+    Still from the directory /etc, use the command ls –l, and use a pipe to display the results page-by-page
+
+
+Essential File Management
+
+    Create a directory with the name /test
+    Copy all files that start with a, e or i from /etc to /test
+    Create a subdirectory /test/backup
+    Move all files that start with a from /test to /test/backup
+    Copy the file /etc/hosts to /test
+    Make a symbolic link with the name /test/myhosts that point to /etc/hosts
+
+
+Working with Text File
+
+    Use head and tail to display the fifth line of the file /etc/passwd
+    Use sed to display the fifth line of the file /etc/passwd
+    Use awk in a pip to filter the first column out of the results of the command ps aux
+    Use grep to show the names of all files in /etc that have lines starting with the text ‘root’
+    Use grep to show all lines from all files in /etc that contain exactly 3 characters
+
+
+Install a CentOs Server that meets the following requirements
+
+    Choose the Minimal 
+    Configure a 10GB Root Partition
+    Use a 1 GB swap partition
+    Make sure no more partition are created and at least 4GB of disk space is unused
+    Set the root password to redhRHT
+
+
+Question | User Management
+Question A
+
+    Create four users: Caroline, Lisa, Lori and Bob
+    Create two groups: sales and account
+    Make Lisa and Caroline member of the group sales
+    Make Lori and Bob member of the group account
+    Create the directory /data/sales where members of the group sales can read write files, and members of account can only read files
+    Create the directory /data/account where members of the group account can read and write files, and members of sales can only read files 
+
+
+Question B
+
+Add two groups to machine named bhopal & indore. Add two primary users to bhopal group named newmarket and city. Newmarket user can access the data of palasia user in rwx mode. Add two primary users to group indore named rnt & palasia. RNT can access the data of city user in read only. Palasia user can access the data of new market user with full permission. City user does'nt have interactive shell. Password of all user should be redhat.
+
+Question C
+
+Create the Directory "/home/sales" with the following characteristics. Group ownership of "/home/sales" should go to "sales' group. The directory should be have full permission for all members off "sales" group but not to any other users accept "root". Files created under "/home/sales" should get the same group ownership is set to the "sales" group.
+
+Question D
+
+Set default umask to 0077 for user natasha. Create the file named test in home dir of natasha user after login from user natasha and check the default permission of file created.
+
+
+History
+
+Increase the history size to 2000 commands.
+
+
+Create alias
+
+customize your cp command "cp -ar"
